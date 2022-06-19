@@ -33,13 +33,10 @@ try:
 except:
     assert False, "The PyScreeze module must be installed to complete the tests: pip install pyscreeze"
 
-"""
-# TODO - pygetwindow is Windows-only for now, so don't require it for testing just yet.
 try:
-    import pygetwindow
+    import pywinctl
 except:
-    assert False, 'The PyGetWindow module must be installed to complete the tests: pip install pygetwindow'
-"""
+    assert False, 'The PyWinCtl module must be installed to complete the tests: pip install pywinctl'
 
 # TODO - note that currently most of the click-related functionality is not tested.
 

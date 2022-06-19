@@ -34,7 +34,7 @@ setup(
                       'pymsgbox',
                       'pytweening>=1.0.4',
                       'pyscreeze>=0.1.21',
-                      'pygetwindow>=0.0.5',
+                      'pywinctl~=0.0.38',
                       'mouseinfo'],
     keywords="gui automation test testing keyboard mouse cursor click press keystroke control",
     classifiers=[

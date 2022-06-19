@@ -47,4 +47,4 @@ On Linux, additionally you need to install the ``scrot`` application, as well as
 
     ``sudo apt-get install python3-dev``
 
-PyAutoGUI install the modules it depends on, including PyTweening, PyScreeze, PyGetWindow, PymsgBox, and MouseInfo.
+PyAutoGUI install the modules it depends on, including PyTweening, PyScreeze, PyWinCtl, PymsgBox, and MouseInfo.
